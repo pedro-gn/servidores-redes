@@ -1,0 +1,5 @@
+siege -c [número de usuários simultâneos] -t [tempo de teste em segundos] http://localhost:8080
+
+
+
+siege -c 10 -t 30s http://localhost:8080
